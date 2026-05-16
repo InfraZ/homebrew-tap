@@ -4,22 +4,22 @@ cask "mmdb-cli" do
 
   on_macos do
     on_intel do
-      sha256 "cf8cd95f01c6ae60654e3146e0b0f0f03eab12696b94553b42543ddab3bf5a9a"
+      sha256 "de0076f5d319c275e7e705a120dea3d0d6e0d4de8de4f5768006fcc920a49ea5"
       url "https://github.com/InfraZ/mmdb-cli/releases/download/v#{version}/mmdb-cli_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "676fc12dbcd703ccb9f3c4669d505627c7ed8f3b68033060009beea655576006"
+      sha256 "97c169664b8b23affa9b6d44024ed698bd06cd1ba2ae970936c6ab10625bc4e1"
       url "https://github.com/InfraZ/mmdb-cli/releases/download/v#{version}/mmdb-cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "470d50cade92adc6c8c65c71cdb9746c64a5266936e44caf3ca008bb16877248"
+      sha256 "620a1e512277d15593d7e99ac516fa4a4238071d60c6ae55d687ee55ac7393bd"
       url "https://github.com/InfraZ/mmdb-cli/releases/download/v#{version}/mmdb-cli_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "45c856f741106ab678d0fe80034cd40679dd4bde0d209524ce45219c313e721d"
+      sha256 "305f5e437846b49a63c9a72a5898fab51e825962df309fe5b49a2338e1a44e8d"
       url "https://github.com/InfraZ/mmdb-cli/releases/download/v#{version}/mmdb-cli_#{version}_linux_arm64.tar.gz"
     end
   end
