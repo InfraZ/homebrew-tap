@@ -10,6 +10,7 @@ Add the tap:
 
 ```sh
 brew tap infraz/tap
+brew trust infraz/tap
 ```
 
 Then install any of the available formulae below.
